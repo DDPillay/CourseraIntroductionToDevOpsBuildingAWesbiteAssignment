@@ -21,10 +21,23 @@
 title: Dillon's recipes
 email: dillon@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Recipes for a sweeth tooth
+  Recipes for a sweet tooth
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  DDPillay
+nav:
+  - label: Home
+    url: /
+  - label: Biscuits
+    url: /biscuits
+  - label: Cake
+    url: /cake
+  - label: Pie
+    url: /pie
+  - label: Pudding
+    url: /pudding
+  - label: Tart
+    url: /tart
 
 # Build settings
 theme: minima

@@ -2,3 +2,17 @@
 ---
 
 @import "{{ site.theme }}";
+
+nav
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 100px;
+}
+
+nav > a, nav > a:hover
+{
+  color: #ffffff;
+  text-decoration: none;
+}
