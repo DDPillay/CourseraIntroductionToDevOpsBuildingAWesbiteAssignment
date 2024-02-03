@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Ultimate sticky toffee pudding
+title: Ultimate Sticky Toffee Pudding
 ---
 # Ingredients
 ## Pudding
