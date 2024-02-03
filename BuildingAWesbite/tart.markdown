@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Sweet and Simple Lemon Tart
 ---
 # Ingredients

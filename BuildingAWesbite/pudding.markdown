@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: Ultimate Sticky Toffee Pudding
 ---
 # Ingredients
