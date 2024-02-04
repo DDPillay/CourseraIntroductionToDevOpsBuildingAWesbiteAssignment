@@ -29,7 +29,7 @@ jobs:
         run: git add *
 
       - name: Committing
-        run: git commit -m "Automated copy over of files to deployment folder
+        run: git commit -m "Automated copy over of files to deployment folder"
 
       - name: Pushing
         run: git push
