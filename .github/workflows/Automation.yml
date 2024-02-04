@@ -16,5 +16,11 @@ jobs:
       - name: Install Jekyll
         run: sudo gem install jekyll bundler
 
-      - name: Automation
-        run: cd BuildingAWesbite && jekyll build && cp -r _site ../docs/
+      - name: Changing directory
+        run: cd BuildingAWesbite
+
+      - name: Building project
+        run: jekyll build
+
+      - name: Copying files
+        run: cp -r _site ../docs/
