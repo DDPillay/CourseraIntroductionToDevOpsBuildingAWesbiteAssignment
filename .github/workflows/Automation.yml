@@ -13,6 +13,4 @@ jobs:
           bundler-cache: true
           ruby-version: 2.7
       - name: Automation
-      - run: cd BuildingAWesbite
-      - run: jekyll build
-      - run: cp -r _site ../docs/
+      - run: cd BuildingAWesbite && jekyll build && cp -r _site ../docs/
