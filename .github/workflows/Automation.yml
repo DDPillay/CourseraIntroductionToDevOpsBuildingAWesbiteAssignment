@@ -31,6 +31,9 @@ jobs:
       - name: Configuring git username
         run: git config user.name "Dillon Diego Pillay"
 
+      - name: Checking out master branch
+        run: git checkout master
+
       - name: Adding to VCS
         run: git add *
 
