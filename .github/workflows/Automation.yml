@@ -11,4 +11,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Automation
-      - run: cd BuildingAWesbite && jekyll build && cp -r _site ../docs/
+        run: cd BuildingAWesbite && jekyll build && cp -r _site ../docs/
