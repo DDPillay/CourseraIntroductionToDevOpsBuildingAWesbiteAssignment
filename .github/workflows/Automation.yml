@@ -7,10 +7,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: ruby/setup-ruby@v1
-        with:
-          bundler-cache: true
-          ruby-version: 2.7
+      - name: Check out repo's default branch
+        uses: actions/checkout@v4
+
       - name: Automation
       - run: cd BuildingAWesbite && jekyll build && cp -r _site ../docs/
