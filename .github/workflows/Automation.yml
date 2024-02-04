@@ -25,6 +25,12 @@ jobs:
       - name: Copying files
         run: cp -r _site ../docs/
 
+      - name: Configuring git email address
+        run: git config user.email "dillondiegopillay@gmail.com"
+
+      - name: Configuring git username
+        run: git config user.name "Dillon Diego Pillay"
+
       - name: Adding to VCS
         run: git add *
 
