@@ -6,4 +6,6 @@ layout: default
 title: Recipes
 menu: main
 ---
-This is a website showcasing different recipes
+This is a website showcasing different recipes.
+
+Built for an assignment.
